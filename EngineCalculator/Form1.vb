@@ -65,6 +65,11 @@
         Label2.Text = "Digite a Frequência"
     End Sub
 
+    Private Sub SobreToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SobreToolStripMenuItem.Click
+        Dim sMsgSobre As String = "Desenvolvedor e Arte: Gabriel Peres Magni"
+        Dim sVersion As String = "Versão 1.02"
+        MsgBox(sMsgSobre,, sVersion)
 
+    End Sub
 
 End Class
